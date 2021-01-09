@@ -1,0 +1,22 @@
+@use '../../../styles//style';
+
+.book-appointment {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.book-appointment__header {
+  text-align: center;
+  margin-bottom: 60px;
+  h3 {
+    color: style.$primary-color;
+  }
+}
+
+.booking__card {
+  border-radius: 10px;
+  font-weight: bold;
+  h5 {
+    color: style.$primary-color;
+  }
+}

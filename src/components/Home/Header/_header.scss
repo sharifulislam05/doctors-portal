@@ -1,0 +1,31 @@
+@use '../../../styles//style';
+
+.header {
+  height: 650px;
+  background: linear-gradient(
+    90deg,
+    style.$white-color 74%,
+    style.$banner-bg 30%
+  );
+}
+
+.header__bg {
+  height: 550px;
+  position: relative;
+}
+
+.header__main {
+  position: absolute;
+  top: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 850px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header {
+    height: 740px;
+  }
+}

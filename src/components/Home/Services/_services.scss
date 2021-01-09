@@ -1,0 +1,19 @@
+@use '../../../styles//style';
+
+.services {
+  margin-top: 110px;
+  margin-bottom: 100px;
+}
+
+.services__header {
+  h3 {
+    @include style.element-format(bold, 1rem, style.$primary-color);
+  }
+  p {
+    @include style.element-format(normal, 3rem, style.$dark-color);
+  }
+}
+
+.service-image {
+  @include style.element-size(90px, 80px);
+}

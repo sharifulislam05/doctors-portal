@@ -1,0 +1,25 @@
+@use '../../styles/style';
+
+.auth-container {
+  height: 100vh;
+}
+
+.auth__area {
+  width: 90%;
+  padding-left: 10px;
+}
+
+.google-login {
+  width: 75%;
+  height: 51px;
+  background: style.$btn-bg;
+  color: style.$white-color;
+  border-radius: 57px;
+  outline: none !important;
+  border: none;
+  font-weight: bold;
+  img,
+  p {
+    margin-top: 5px;
+  }
+}

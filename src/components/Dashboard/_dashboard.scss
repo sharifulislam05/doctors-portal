@@ -1,0 +1,29 @@
+.brand__sidebar {
+  position: fixed;
+  height: 100vh;
+  background: linear-gradient(to bottom, #19d3ae, #0fcfec);
+  li {
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.sidebar__active {
+  color: #0083d0 !important;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 766px) {
+  .brand__sidebar {
+    width: 33.33%;
+  }
+}
+@media only screen and (min-width: 766px) {
+  .brand__sidebar {
+    width: 16%;
+  }
+}

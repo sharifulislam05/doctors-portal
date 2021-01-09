@@ -1,0 +1,46 @@
+$btn-bg: linear-gradient(to right, #19d3ae, #0fcfec);
+$white-color: #ffffff;
+$banner-bg: #3a4256;
+$primary-color: #1cc7c1;
+$dark-color: #203047;
+$aqua-color: #1cc7c1;
+$banner-text: #203047;
+
+//custom class
+.aqua-text {
+  color: $aqua-color;
+}
+
+.primary-btn {
+  height: 40px;
+  background: $btn-bg;
+  outline: none !important;
+  border: none;
+  color: $white-color;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: Poppins;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.9;
+  transition: all .3s;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.primary-calender {
+  border: none;
+  background: transparent;
+}
+//text formatter function
+@mixin element-format($wight, $size, $color) {
+  font-weight: $wight;
+  font-size: $size;
+  color: $color;
+}
+
+@mixin element-size($width, $height) {
+  width: $width;
+  height: $height;
+}

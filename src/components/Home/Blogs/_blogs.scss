@@ -1,0 +1,35 @@
+@use '../../../styles/style';
+
+.blogs__header {
+  margin-top: 80px;
+  h3 {
+    @include style.element-format(bold, 1rem, style.$primary-color);
+  }
+  p {
+    @include style.element-format(normal, 2.5rem, style.$dark-color);
+  }
+}
+
+.blogs {
+  margin-bottom: 80px;
+  .blog__card:hover {
+    background: style.$btn-bg;
+    .blog__img {
+      display: none;
+    }
+    .blog__author {
+      color: style.$white-color;
+      transition: 0.1s all ease;
+    }
+    .blog__description {
+      visibility: hidden;
+    }
+    .blog__body {
+      color: style.$white-color;
+      background: url("../../../assets/images/quote.png");
+      background-position: right 50px top;
+      background-repeat: no-repeat;
+      background-size: 140px;
+    }
+  }
+}

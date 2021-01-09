@@ -1,0 +1,12 @@
+.add-doctor__form,
+.add-doctor__file {
+  width: 50%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .add-doctor__form,
+  .add-doctor__file {
+    width: 100%;
+  }
+}

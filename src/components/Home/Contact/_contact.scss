@@ -1,0 +1,21 @@
+.contact-us {
+  height: 500px;
+  width: 100%;
+  margin-top: 100px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(58, 66, 86, 1),
+      rgba(58, 66, 86, 0.9)
+    ),
+    url("https://i.ibb.co/RyNdHw2/Mask-Group-4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact__form {
+  input {
+    margin-top: 10px;
+  }
+}
+

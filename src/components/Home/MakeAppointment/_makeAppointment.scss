@@ -1,0 +1,26 @@
+@use '../../../styles/style';
+
+.make-appointment {
+  @include style.element-size(100%, 400px);
+  margin-top: 150px;
+  margin-bottom: 80px;
+  background-image: linear-gradient(to bottom, rgba(58, 66, 86, 1), rgba(58, 66, 86, 0.9)), url("https://i.ibb.co/RyNdHw2/Mask-Group-4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.make-appointment__img {
+  top: -135px;
+  img {
+    height: 535px;
+  }
+}
+
+.make-appointment__description {
+  color: style.$white-color;
+  h6 {
+    color: style.$primary-color;
+    text-transform: uppercase;
+  }
+}
