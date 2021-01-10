@@ -1,4 +1,4 @@
-# Volunteer Network App
+# Doctors Portal App
 
 ## [website](https://doctors-portal-ap.web.app/) || [server](https://github.com/smshorif52/doctors-portal-server.git)
 
